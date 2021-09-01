@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -15,38 +15,289 @@
 
 <body class="bg-light">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary header shadow-sm">
-        <div class="container">
-            <a class="h2 text-decoration-none text-white" href="#">eStore</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-pills mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/" data-route>Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/cart" data-route>Cart</a>
-                    </li>
-                </ul>
-                <div class="dropdown ms-lg-5 cart-informer" id="cart-informer">
-                    <a class="btn btn-secondary dropdown-toggle btn-lg" href="#" role="button" id="dropdownMenuLink"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="bi bi-cart"></i>
-                        <span class="badge bg-primary rounded-pill"></span>
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-lg-end dropdown-menu-dark bg-secondary" aria-labelledby="dropdownMenuLink"></ul>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <div class="container bg-white shadow-sm my-3 py-3 rounded">
-        <div class="row g-3" id="route-view"></div>
+<header class="navbar navbar-expand-xl " >
+    <button class="navbar-toggler menu-btn mx-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <div class="logo-hiden mx-4">
+        <img class="" src="../public/img/logo.png" alt="logo">
     </div>
+    
+
+    <menu class="collapse navbar-collapse flex-column align-items-stretch " id="navbarSupportedContent">
+        
+        <nav class="navbar  d-flex flex-column header shadow-sm">
+            <div class="container flex-xl-row flex-column">
+    
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarReception" aria-controls="navbarReception" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    
+                </button> -->
+                <div class="wrapper  flex-xl-row  flex-column">
+                    <div class=" me-xl-3" id="navbarReception">
+    
+                        <div class="dropdown">
+                            <a class="btn  dropdown-toggle btn-lg dropdown-custom" href="#" role="button"
+                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+    
+                                Приём абонентов
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-start py-4 " aria-labelledby="dropdownMenuLink">
+                                <a href="#" class="dropdown-item px-4 my-2">
+                                    Филиал «Донецктеплосеть»
+                                </a>
+                                <a href="#" class=" dropdown-item px-4 my-2">
+                                    Филиал «Макеевкатеплосеть»
+                                </a>
+                                <a href="#" class=" dropdown-item px-4 my-2 ">
+                                    Филиал «Харцызсктеплосеть»
+                                </a>
+                                <a href="#" class=" dropdown-item px-4 my-2">
+                                    Филиал «Шахтерсктеплосеть»
+                                </a>
+    
+                            </ul>
+                        </div>
+                    </div>
+                    <a class="navbarbtn" href="#">Тарифы</a>
+                </div>
+    
+    
+    
+                <div class="wrapper flex-xl-row  flex-column align-items-center">
+                    <a class="navbarbtn" href="#">Личный кабинет</a>
+    
+                    <div class="  ms-xl-3" id="navbarSupportedContent">
+    
+                        <div class="dropdown  ">
+                            <a class="btn  dropdown-toggle btn-lg dropdown-custom " href="#" role="button"
+                                id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false">
+                                Аварийная служба
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end py-4 " aria-labelledby="dropdownMenuLink">
+                                <a href="#" class="dropdown-item px-4 my-2">
+                                    Филиал «Донецктеплосеть»
+                                </a>
+                                <a href="#" class=" dropdown-item px-4 my-2">
+                                    Филиал «Макеевкатеплосеть»
+                                </a>
+                                <a href="#" class=" dropdown-item px-4 my-2 ">
+                                    Филиал «Харцызсктеплосеть»
+                                </a>
+                                <a href="#" class=" dropdown-item px-4 my-2">
+                                    Филиал «Шахтерсктеплосеть»
+                                </a>
+    
+                            </ul>
+                        </div>
+                    </div>
+    
+    
+                </div>
+    
+    
+    
+                <!-- <a class="h2 text-decoration-none text-white" href="#">eStore</a> -->
+    
+    
+    
+    
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+    
+            </div>
+    
+        </nav>
+        <div class="submenu    bg-white ">
+            <div class="container d-flex justify-content-between align-items-xl-center  py-3 px-0 flex-xl-row flex-column">
+                <a class="btn  " href="#" role="button">
+    
+                    Главная
+                </a>
+        
+        
+                <div class="dropdown">
+                    <a class="btn  dropdown-toggle btn-lg dropdown-custom" href="#" role="button" id="dropdownAbout"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+        
+                        О предприятии
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-start py-4 " aria-labelledby="dropdownAbout">
+                        <a href="#" class="dropdown-item px-4 my-2">
+                            Филиал «Донецктеплосеть»
+                        </a>
+        
+        
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <a class="btn  dropdown-toggle btn-lg dropdown-custom" href="#" role="button" id="dropdownFilial"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+        
+                        Филиалы
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-start py-4 " aria-labelledby="dropdownFilial">
+                        <a href="#" class="dropdown-item px-4 my-2">
+                            Филиал «Донецктеплосеть»
+                        </a>
+        
+        
+                    </ul>
+                </div>
+        
+                <div class="position-relative logo-block ">
+                    <img class="position-absolute logo" src="../public/img/logo.png" alt="logo">
+                </div>
+        
+                <div class="dropdown">
+                    <a class="btn  dropdown-toggle btn-lg dropdown-custom" href="#" role="button" id="dropdownClients"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+        
+                        Потребителям
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-start py-4 " aria-labelledby="dropdownClients">
+                        <a href="#" class="dropdown-item px-4 my-2">
+                            Филиал «Донецктеплосеть»
+                        </a>
+        
+        
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <a class="btn  dropdown-toggle btn-lg dropdown-custom" href="#" role="button" id="dropdownClients"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+        
+                        Новости
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-start py-4 " aria-labelledby="dropdownClients">
+                        <a href="#" class="dropdown-item px-4 my-2">
+                            Филиал «Донецктеплосеть»
+                        </a>
+        
+        
+                    </ul>
+                </div>
+        
+                <form class="sisea-search-form" action="poisk" method="get">
+                    <fieldset>
+                        <div class="search">
+        
+                            <input class="search" placeholder="Поиск..." name="search" id="search" value="">
+                            <button type="submit" style="border: none;background: none;width: 0;padding: 0;">
+                                <img class="search-btn position-relative"
+                                    src="../public/img/search.png" alt="search">
+                            </button>
+        
+        
+        
+                        </div>
+                        <input type="hidden" name="id" value="68" />
+        
+                    </fieldset>
+                </form>
+            </div>
+           
+    
+    
+        </div>
+
+    </menu>
+</header>
+<section class="slider">
+    <div class="container">
+        <div class="title">
+            <span class="bold_txt">ГУП ДНР “Донбасстеплоэнерго”</span> <br>
+            С нами надёжно и тепло!
+        </div>
+    <!-- слайдер бутстрап -->
+    
+        <div id="sliderMain" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#sliderMain" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#sliderMain" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#sliderMain" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../public/img/img_slider.png" class="d-block w-100" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="../public/img/img_slider.png" class="d-block w-100" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="../public/img/img_slider.png" class="d-block w-100" alt="">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#sliderMain" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#sliderMain" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    
+    </div>
+    
+</section>
+<section class="top-news">
+    <div class="container">
+        <div class="title">
+            ТОП-новость
+        </div>
+
+        <div class="top-news_content d-lg-block d-flex flex-column align-items-center">
+            <img src="../public/img/news.png" alt="">
+            <span class="top-news_date align-self-start "> 3 сентября 2021</span>
+            <span class="top-news_title d-block"> Смотр-конкурс «Лучший по профессии»</span>
+        <p>Конкурс «Золотой пеликан» был организован, чтобы выявлять и поощрять эффективные производственные и научно-технические разработки, а также поддерживать инновационные исследования в сфере охраны окружающей среды и обеспечения экологической безопасности.
+
+          </p>
+          <p>  Важно то, что конкурсная комиссия рассматривает исключительно те проекты, что уже были осуществлены и внедрены в практику и делом доказали, что их реализация идет во благо экологии ДНР.
+            Источники теплоснабжения СПП «Донецкгортеплосеть», работающие только на отопление, будут остановлены для последующего проведения плановых ремонтных работ.</p>
+            <p>В 2021 году на конкурс «Золотой пеликан» от ГУП ДНР «ДОНБАССТЕПЛОЭНЕРГО» был подан проект о внедрении на угольных котельных твердотопливных котлов КВГТ-в-р-100 "Гермес", оснащенных пылеуловителями гравитационного типа. В таких пылеуловителях очистка уходящих газов от твердых частиц производится с эффективностью 82-92%!
+            </p>
+            <p>Проект был разработан и реализован специалистами Филиала «Донецктеплосеть» ГУП ДНР «ДОНБАССТЕПЛОЭНЕРГО» на котельных в г. Моспино (ул. Горноспасательная, 10-б и ул. Тореза, 31, пос. Горбачево-Михайловка) и в Петровском районе г. Донецка (ул. В. Пика, 4).
+            </p>
+            <p>Угольные котельные по этим адресам были оборудованы низкоэффективными угольными котлами, коэффициент полезной деятельности (КПД) которых составлял порядка 50%. Производимая ими тепловая энергия имела высокую себестоимость (т. к. сжигалось большое количество топлива), а в качестве теплоносителя использовалась неподготовленная вода, что приводило к снижению эффективности работы котлов за счет образования накипи и ряда других нежелательных явлений, а также к значительным затратам на чистку и ремонт оборудования.</p>
+
+
+
+        </div>
+        
+    </div>
+
+</section>
+<section class="all-news">
+    <div class="container">
+        <div class="title">Последние новости</div>
+        <div class="news-cards d-flex ">
+            <div class="card-item">
+                <img src="../public/img/news1.png" alt="">
+            </div>
+    
+        </div>
+    </div>
+   
+
+</section>
+   
+<!--    
+    <div>
+
+    </div> -->
+
+    <!-- <div class="container bg-white shadow-sm my-3 py-3 rounded">
+        <div class="row g-3" id="route-view"></div>
+    </div> -->
 
 </body>
 
