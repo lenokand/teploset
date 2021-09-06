@@ -6,298 +6,876 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" href="./public/icons/favicon.ico" type="image/x-icon">
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-    <link rel="manifest" href="icons/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png"> -->
+   
     <link rel="stylesheet" href="bundle.css">
 </head>
 
 <body class="bg-light">
 
-<header class="navbar navbar-expand-xl " >
-    <button class="navbar-toggler menu-btn mx-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <!-- <span class="navbar-toggler-icon"></span> -->
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
-    <div class="logo-hiden mx-4">
-        <img class="" src="../public/img/logo.png" alt="logo">
-    </div>
-    
+    <header class="navbar navbar-expand-xl ">
+        <button class="navbar-toggler menu-btn mx-4" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="logo-hiden mx-4">
+            <img class="" src="./public/img/logo.png" alt="logo">
+        </div>
 
-    <menu class="collapse navbar-collapse flex-column align-items-stretch " id="navbarSupportedContent">
-        
-        <nav class="navbar  d-flex flex-column header shadow-sm">
-            <div class="container flex-xl-row flex-column">
-    
-                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+
+        <menu class="collapse navbar-collapse flex-column align-items-stretch " id="navbarSupportedContent">
+
+            <nav class="navbar  d-flex flex-column header shadow-sm">
+                <div class="container flex-xl-row flex-column">
+
+                    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarReception" aria-controls="navbarReception" aria-expanded="false"
                     aria-label="Toggle navigation">
                     
                 </button> -->
-                <div class="wrapper  flex-xl-row  flex-column">
-                    <div class=" me-xl-3" id="navbarReception">
-    
-                        <div class="dropdown">
-                            <a class="btn  dropdown-toggle btn-lg dropdown-custom" href="#" role="button"
-                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-    
-                                Приём абонентов
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-start py-4 " aria-labelledby="dropdownMenuLink">
-                                <a href="#" class="dropdown-item px-4 my-2">
-                                    Филиал «Донецктеплосеть»
+                    <div class="wrapper  flex-xl-row  flex-column">
+                        <div class=" me-xl-3" id="navbarReception">
+
+                            <div class="dropdown">
+                                <a class="btn  dropdown-toggle btn-lg dropdown-custom" href="#" role="button"
+                                    id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+
+                                    Приём абонентов
                                 </a>
-                                <a href="#" class=" dropdown-item px-4 my-2">
-                                    Филиал «Макеевкатеплосеть»
-                                </a>
-                                <a href="#" class=" dropdown-item px-4 my-2 ">
-                                    Филиал «Харцызсктеплосеть»
-                                </a>
-                                <a href="#" class=" dropdown-item px-4 my-2">
-                                    Филиал «Шахтерсктеплосеть»
-                                </a>
-    
-                            </ul>
+                                <ul class="dropdown-menu dropdown-menu-start  " aria-labelledby="dropdownMenuLink">
+                                    <a href="#" class="dropdown-item ">
+                                        Филиал «Донецктеплосеть»
+                                    </a>
+                                    <a href="#" class=" dropdown-item ">
+                                        Филиал «Макеевкатеплосеть»
+                                    </a>
+                                    <a href="#" class=" dropdown-item  ">
+                                        Филиал «Харцызсктеплосеть»
+                                    </a>
+                                    <a href="#" class=" dropdown-item ">
+                                        Филиал «Шахтерсктеплосеть»
+                                    </a>
+
+                                </ul>
+                            </div>
                         </div>
+                        <a class="navbarbtn" href="#">Тарифы</a>
                     </div>
-                    <a class="navbarbtn" href="#">Тарифы</a>
-                </div>
-    
-    
-    
-                <div class="wrapper flex-xl-row  flex-column align-items-center">
-                    <a class="navbarbtn" href="#">Личный кабинет</a>
-    
-                    <div class="  ms-xl-3" id="navbarSupportedContent">
-    
-                        <div class="dropdown  ">
-                            <a class="btn  dropdown-toggle btn-lg dropdown-custom " href="#" role="button"
-                                id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false">
-                                Аварийная служба
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-end py-4 " aria-labelledby="dropdownMenuLink">
-                                <a href="#" class="dropdown-item px-4 my-2">
-                                    Филиал «Донецктеплосеть»
+
+
+
+                    <div class="wrapper flex-xl-row  flex-column ">
+                        <a class="navbarbtn" href="#">Личный кабинет</a>
+
+                        <div class="  ms-xl-3" id="navbarSupportedContent">
+
+                            <div class="dropdown  ">
+                                <a class="btn  dropdown-toggle btn-lg dropdown-custom " href="#" role="button"
+                                    id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Аварийная служба
                                 </a>
-                                <a href="#" class=" dropdown-item px-4 my-2">
-                                    Филиал «Макеевкатеплосеть»
-                                </a>
-                                <a href="#" class=" dropdown-item px-4 my-2 ">
-                                    Филиал «Харцызсктеплосеть»
-                                </a>
-                                <a href="#" class=" dropdown-item px-4 my-2">
-                                    Филиал «Шахтерсктеплосеть»
-                                </a>
-    
-                            </ul>
+                                <ul class="dropdown-menu dropdown-menu-end  " aria-labelledby="dropdownMenuLink">
+                                    <a href="#" class="dropdown-item ">
+                                        Филиал «Донецктеплосеть»
+                                    </a>
+                                    <a href="#" class=" dropdown-item ">
+                                        Филиал «Макеевкатеплосеть»
+                                    </a>
+                                    <a href="#" class=" dropdown-item  ">
+                                        Филиал «Харцызсктеплосеть»
+                                    </a>
+                                    <a href="#" class=" dropdown-item">
+                                        Филиал «Шахтерсктеплосеть»
+                                    </a>
+
+                                </ul>
+                            </div>
                         </div>
+
+
                     </div>
-    
-    
-                </div>
-    
-    
-    
-                <!-- <a class="h2 text-decoration-none text-white" href="#">eStore</a> -->
-    
-    
-    
-    
-                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+
+
+
+                    <!-- <a class="h2 text-decoration-none text-white" href="#">eStore</a> -->
+
+
+
+
+                    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button> -->
-    
+
+                </div>
+
+            </nav>
+            <div class="submenu    bg-white ">
+                <div class=" position-relative container d-flex justify-content-between align-items-center  py-3 px-0 flex-xl-row flex-column">
+                    <a class="btn  " href="#" role="button">
+
+                        Главная
+                    </a>
+
+
+                    <div class="dropdown">
+                        <a class="btn  dropdown-toggle btn-lg dropdown-custom" href="#" role="button" id="dropdownAbout"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+
+                            О предприятии
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-start  " aria-labelledby="dropdownAbout">
+                            <a href="#" class="dropdown-item ">
+                                Филиал «Донецктеплосеть»
+                            </a>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="dropdown">
+                        <a class="btn  dropdown-toggle btn-lg dropdown-custom" href="#" role="button"
+                            id="dropdownFilial" data-bs-toggle="dropdown" aria-expanded="false">
+
+                            Филиалы
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-start  " aria-labelledby="dropdownFilial">
+                            <a href="#" class="dropdown-item ">
+                                Филиал «Донецктеплосеть»
+                            </a>
+
+
+                        </ul>
+                    </div>
+
+                    <div class=" logo-block ">
+                        <img class="position-absolute logo" src="./public/img/logo.png" alt="logo">
+                    </div>
+
+
+
+                    <div class="dropdown">
+                        <a class="btn  dropdown-toggle btn-lg dropdown-custom" href="#" role="button"
+                            id="dropdownClients" data-bs-toggle="dropdown" aria-expanded="false">
+
+                            Потребителям
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-start  " aria-labelledby="dropdownClients">
+                            <a href="#" class="dropdown-item ">
+                                Филиал «Донецктеплосеть»
+                            </a>
+
+
+                        </ul>
+                    </div>
+
+
+                    
+                    <div class="dropdown">
+                        <a class="btn  dropdown-toggle btn-lg dropdown-custom" href="#" role="button"
+                            id="dropdownClients" data-bs-toggle="dropdown" aria-expanded="false">
+
+                            Новости
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-start  " aria-labelledby="dropdownClients">
+                            <a href="news.html" class="dropdown-item ">
+                                Новости
+                            </a>
+                            <a href="#" class="dropdown-item ">
+                                Филиал «Донецктеплосеть»
+                            </a>
+
+
+                        </ul>
+                    </div>
+
+                    <form class="sisea-search-form" action="poisk" method="get">
+                        <fieldset>
+                            <div class="search">
+
+                                <input class="search" placeholder="Поиск..." name="search" id="search" value="">
+                                <button type="submit" style="border: none;background: none;width: 0;padding: 0;">
+                                    <img class="search-btn " src="./public/img/search.png"
+                                        alt="search">
+                                </button>
+
+
+
+                            </div>
+                            <input type="hidden" name="id" value="68" />
+
+                        </fieldset>
+                    </form>
+                </div>
+
+
+
             </div>
-    
-        </nav>
-        <div class="submenu    bg-white ">
-            <div class="container d-flex justify-content-between align-items-xl-center  py-3 px-0 flex-xl-row flex-column">
-                <a class="btn  " href="#" role="button">
-    
-                    Главная
-                </a>
-        
-        
-                <div class="dropdown">
-                    <a class="btn  dropdown-toggle btn-lg dropdown-custom" href="#" role="button" id="dropdownAbout"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-        
-                        О предприятии
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-start py-4 " aria-labelledby="dropdownAbout">
-                        <a href="#" class="dropdown-item px-4 my-2">
-                            Филиал «Донецктеплосеть»
-                        </a>
-        
-        
-                    </ul>
+
+        </menu>
+    </header>
+    <section class="slider">
+        <div class="container">
+            <div class="title">
+                <span class="bold_txt">ГУП ДНР “Донбасстеплоэнерго”</span> <br>
+                С нами надёжно и тепло!
+            </div>
+            <!-- слайдер бутстрап -->
+
+            <div id="sliderMain" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <!-- <button type="button" data-bs-target="#sliderMain" data-bs-slide-to="0" class=""
+                        aria-current="true" ></button>
+                    <button type="button" data-bs-target="#sliderMain" data-bs-slide-to="1"
+                        ></button>
+
+
+                    <button type="button" data-bs-target="#sliderMain" data-bs-slide-to="2"
+                        ></button>
+                    <button type="button" data-bs-target="#sliderMain" data-bs-slide-to="3"
+                        ></button> -->
                 </div>
-                <div class="dropdown">
-                    <a class="btn  dropdown-toggle btn-lg dropdown-custom" href="#" role="button" id="dropdownFilial"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-        
-                        Филиалы
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-start py-4 " aria-labelledby="dropdownFilial">
-                        <a href="#" class="dropdown-item px-4 my-2">
-                            Филиал «Донецктеплосеть»
-                        </a>
-        
-        
-                    </ul>
-                </div>
-        
-                <div class="position-relative logo-block ">
-                    <img class="position-absolute logo" src="../public/img/logo.png" alt="logo">
-                </div>
-        
-                <div class="dropdown">
-                    <a class="btn  dropdown-toggle btn-lg dropdown-custom" href="#" role="button" id="dropdownClients"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-        
-                        Потребителям
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-start py-4 " aria-labelledby="dropdownClients">
-                        <a href="#" class="dropdown-item px-4 my-2">
-                            Филиал «Донецктеплосеть»
-                        </a>
-        
-        
-                    </ul>
-                </div>
-                <div class="dropdown">
-                    <a class="btn  dropdown-toggle btn-lg dropdown-custom" href="#" role="button" id="dropdownClients"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-        
-                        Новости
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-start py-4 " aria-labelledby="dropdownClients">
-                        <a href="#" class="dropdown-item px-4 my-2">
-                            Филиал «Донецктеплосеть»
-                        </a>
-        
-        
-                    </ul>
-                </div>
-        
-                <form class="sisea-search-form" action="poisk" method="get">
-                    <fieldset>
-                        <div class="search">
-        
-                            <input class="search" placeholder="Поиск..." name="search" id="search" value="">
-                            <button type="submit" style="border: none;background: none;width: 0;padding: 0;">
-                                <img class="search-btn position-relative"
-                                    src="../public/img/search.png" alt="search">
-                            </button>
-        
-        
-        
+                <div class="carousel-inner">
+                    <div class="carousel-item ">
+                        <div class="slide-card "  style="background-image: url('./public/img/img_slider.png'); ">
+                            <!-- <img src="./public/img/img_slider.png" class="slider-img  position-absolute d-block w-100" alt=""> -->
+                            <div class="slide-title">
+                               <span  class="bold_txt">Надежно и качественно</span> 
+                             <br>   обеспечиваем потребителей
+                               <br> тепловой энергией и теплоносителем
+                            </div>
+                            <div class="slide-subtitle">
+                                О предприятии какой-то текст будет здесь...
+                            </div>
+                            <a class="slider-btn_more" href="">Ознакомиться</a>
+                           
                         </div>
-                        <input type="hidden" name="id" value="68" />
-        
-                    </fieldset>
-                </form>
+
+                       
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slide-card " style="background-image: url('./public/img/img_slider.png'); ">
+                            <!-- <img src="./public/img/img_slider.png" class="slider-img  position-absolute d-block w-100" alt=""> -->
+                            <div class="slide-title">
+                               <span  class="bold_txt">Надежно и качественно</span> 
+                             <br>   обеспечиваем потребителей
+                               <br> тепловой энергией и теплоносителем
+                            </div>
+                            <div class="slide-subtitle">
+                                О предприятии какой-то текст будет здесь...
+                            </div>
+                            <a class="slider-btn_more" href="">Ознакомиться</a>
+                           
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slide-card " style="background-image: url('./public/img/img_slider.png'); ">
+                            <!-- <img src="./public/img/img_slider.png" class="slider-img  position-absolute d-block w-100" alt=""> -->
+                            <div class="slide-title">
+                               <span  class="bold_txt">Надежно и качественно</span> 
+                             <br>   обеспечиваем потребителей
+                               <br> тепловой энергией и теплоносителем
+                            </div>
+                            <div class="slide-subtitle">
+                                О предприятии какой-то текст будет здесь...
+                            </div>
+                            <a class="slider-btn_more" href="">Ознакомиться</a>
+                           
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slide-card " style="background-image: url('./public/img/img_slider.png'); ">
+                            <!-- <img src="./public/img/img_slider.png" class="slider-img  position-absolute d-block w-100" alt=""> -->
+                            <div class="slide-title">
+                               <span  class="bold_txt">Надежно и качественно</span> 
+                             <br>   обеспечиваем потребителей
+                               <br> тепловой энергией и теплоносителем
+                            </div>
+                            <div class="slide-subtitle">
+                                О предприятии какой-то текст будет здесь...
+                            </div>
+                            <a class="slider-btn_more" href="">Ознакомиться</a>
+                           
+                        </div>
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#sliderMain" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#sliderMain" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-           
-    
-    
+
         </div>
 
-    </menu>
-</header>
-<section class="slider">
-    <div class="container">
-        <div class="title">
-            <span class="bold_txt">ГУП ДНР “Донбасстеплоэнерго”</span> <br>
-            С нами надёжно и тепло!
-        </div>
-    <!-- слайдер бутстрап -->
-    
-        <div id="sliderMain" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#sliderMain" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#sliderMain" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#sliderMain" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </section>
+    <section class="top-news">
+        <div class="container">
+            <div class="title">
+                ТОП-новость
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../public/img/img_slider.png" class="d-block w-100" alt="">
-              </div>
-              <div class="carousel-item">
-                <img src="../public/img/img_slider.png" class="d-block w-100" alt="">
-              </div>
-              <div class="carousel-item">
-                <img src="../public/img/img_slider.png" class="d-block w-100" alt="">
-              </div>
+
+            <div class="top-news_content d-lg-block d-flex flex-column align-items-center">
+                <img src="./public/img/news.png" alt="">
+                <span class="top-news_date align-self-start "> 3 сентября 2021</span>
+                <span class="top-news_title d-block"> Смотр-конкурс «Лучший по профессии»</span>
+                <p>Конкурс «Золотой пеликан» был организован, чтобы выявлять и поощрять эффективные производственные и
+                    научно-технические разработки, а также поддерживать инновационные исследования в сфере охраны
+                    окружающей среды и обеспечения экологической безопасности.
+
+                </p>
+                <p> Важно то, что конкурсная комиссия рассматривает исключительно те проекты, что уже были осуществлены
+                    и внедрены в практику и делом доказали, что их реализация идет во благо экологии ДНР.
+                    Источники теплоснабжения СПП «Донецкгортеплосеть», работающие только на отопление, будут остановлены
+                    для последующего проведения плановых ремонтных работ.</p>
+                <p>В 2021 году на конкурс «Золотой пеликан» от ГУП ДНР «ДОНБАССТЕПЛОЭНЕРГО» был подан проект о внедрении
+                    на угольных котельных твердотопливных котлов КВГТ-в-р-100 "Гермес", оснащенных пылеуловителями
+                    гравитационного типа. В таких пылеуловителях очистка уходящих газов от твердых частиц производится с
+                    эффективностью 82-92%!
+                </p>
+                <p>Проект был разработан и реализован специалистами Филиала «Донецктеплосеть» ГУП ДНР
+                    «ДОНБАССТЕПЛОЭНЕРГО» на котельных в г. Моспино (ул. Горноспасательная, 10-б и ул. Тореза, 31, пос.
+                    Горбачево-Михайловка) и в Петровском районе г. Донецка (ул. В. Пика, 4).
+                </p>
+                <p>Угольные котельные по этим адресам были оборудованы низкоэффективными угольными котлами, коэффициент
+                    полезной деятельности (КПД) которых составлял порядка 50%. Производимая ими тепловая энергия имела
+                    высокую себестоимость (т. к. сжигалось большое количество топлива), а в качестве теплоносителя
+                    использовалась неподготовленная вода, что приводило к снижению эффективности работы котлов за счет
+                    образования накипи и ряда других нежелательных явлений, а также к значительным затратам на чистку и
+                    ремонт оборудования.</p>
+
+
+
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#sliderMain" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#sliderMain" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    
-    </div>
-    
-</section>
-<section class="top-news">
-    <div class="container">
-        <div class="title">
-            ТОП-новость
-        </div>
-
-        <div class="top-news_content d-lg-block d-flex flex-column align-items-center">
-            <img src="../public/img/news.png" alt="">
-            <span class="top-news_date align-self-start "> 3 сентября 2021</span>
-            <span class="top-news_title d-block"> Смотр-конкурс «Лучший по профессии»</span>
-        <p>Конкурс «Золотой пеликан» был организован, чтобы выявлять и поощрять эффективные производственные и научно-технические разработки, а также поддерживать инновационные исследования в сфере охраны окружающей среды и обеспечения экологической безопасности.
-
-          </p>
-          <p>  Важно то, что конкурсная комиссия рассматривает исключительно те проекты, что уже были осуществлены и внедрены в практику и делом доказали, что их реализация идет во благо экологии ДНР.
-            Источники теплоснабжения СПП «Донецкгортеплосеть», работающие только на отопление, будут остановлены для последующего проведения плановых ремонтных работ.</p>
-            <p>В 2021 году на конкурс «Золотой пеликан» от ГУП ДНР «ДОНБАССТЕПЛОЭНЕРГО» был подан проект о внедрении на угольных котельных твердотопливных котлов КВГТ-в-р-100 "Гермес", оснащенных пылеуловителями гравитационного типа. В таких пылеуловителях очистка уходящих газов от твердых частиц производится с эффективностью 82-92%!
-            </p>
-            <p>Проект был разработан и реализован специалистами Филиала «Донецктеплосеть» ГУП ДНР «ДОНБАССТЕПЛОЭНЕРГО» на котельных в г. Моспино (ул. Горноспасательная, 10-б и ул. Тореза, 31, пос. Горбачево-Михайловка) и в Петровском районе г. Донецка (ул. В. Пика, 4).
-            </p>
-            <p>Угольные котельные по этим адресам были оборудованы низкоэффективными угольными котлами, коэффициент полезной деятельности (КПД) которых составлял порядка 50%. Производимая ими тепловая энергия имела высокую себестоимость (т. к. сжигалось большое количество топлива), а в качестве теплоносителя использовалась неподготовленная вода, что приводило к снижению эффективности работы котлов за счет образования накипи и ряда других нежелательных явлений, а также к значительным затратам на чистку и ремонт оборудования.</p>
-
-
 
         </div>
-        
-    </div>
 
-</section>
-<section class="all-news">
-    <div class="container">
-        <div class="title">Последние новости</div>
-        <div class="news-cards d-flex ">
-            <div class="card-item">
-                <img src="../public/img/news1.png" alt="">
+    </section>
+    <section class="all-news">
+        <div class="container">
+            <div class="title">Последние новости</div>
+            <!-- 1 -->
+            <div class="news-cards">
+                <div class="card-item">
+                    <img src="./public/img/news1.png" alt="">
+                    <div class="card-content">
+                        <div class="date">3 сентября 2021</div>
+                        <div class="card-title">Проводится набор людей на обучение</div>
+                        <div class="card-text">Выполненных задач в этом году и в прошлые года было еще...</div>
+                        <a href="#" class="more">Подробнее &rarr;</a>
+
+                    </div>
+
+                </div>
+
+                <!-- 2 -->
+
+                <div class="card-item">
+                    <img src="./public/img/news2.png" alt="">
+                    <div class="card-content">
+                        <div class="date">23 августа 2021</div>
+                        <div class="card-title">Молодые профессионалы выбирают сварку!</div>
+                        <div class="card-text">Выполненных задач в этом году и в прошлые года было еще...</div>
+                        <a href="#" class="more">Подробнее &rarr;</a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 3 -->
+
+                <div class="card-item">
+                    <img src="./public/img/news3.png" alt="">
+                    <div class="card-content">
+                        <div class="date">10 августа 2021</div>
+                        <div class="card-title">Смотр-конкурс «Лучший по профессии»</div>
+                        <div class="card-text">Выполненных задач в этом году и в прошлые года было еще...</div>
+                        <a href="#" class="more">Подробнее &rarr;</a>
+
+                    </div>
+
+                </div>
+
             </div>
-    
+
+
+
         </div>
-    </div>
-   
 
-</section>
-   
-<!--    
-    <div>
 
-    </div> -->
+    </section>
+    <section class="faq">
+        <div class="container d-flex  flex-column flex-lg-row justify-content-between">
+            <div class="title ">Часто
+                <div class="bold_txt">
+                    задаваемые
+                    вопросы
+                </div>
+            </div>
 
-    <!-- <div class="container bg-white shadow-sm my-3 py-3 rounded">
-        <div class="row g-3" id="route-view"></div>
-    </div> -->
+
+            <div class="accordion accordion-flush w-100 " id="accordionFaq">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Первый очень часто задаваемый вопрос будет здесь написан?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFaq">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
+                            body.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Второй слишком часто задаваемый вопрос ?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFaq">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
+                            body. Let's imagine this being filled with some actual content.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Accordion Item #3
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFaq">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <section class="seo-text">
+        <div class="container">
+            <div class="title">CEO текст</div>
+
+            <div class="seo-content_promo">
+                <p>
+                    23 марта в администрации города Донецка состоялось торжественное награждение Благодарностями Главы
+                    Донецкой Народной Республики, ведомственными наградами и наградами администрации г. Донецка лучших
+                    работников жилищно-коммунальных предприятий города по случаю празднования Дня работников бытового
+                    обслуживания населения и жилищно-коммунального хозяйства.
+
+                </p>
+                <p>
+                    Коллективу СПП «Донецкгортеплосеть» ГП «ДОНБАССТЕПЛОЭНЕРГО» объявлена Благодарность за
+                    добросовестный труд, высокий профессионализм и в связи с празднованием Дня работников бытового
+                    обслуживания населения и жилищно-коммунального хозяйства.
+                    <span class="btn-more">Подробнее...</span>
+                </p>
+
+            </div>
+
+            <div class="seo-content_all">
+                <p>
+                    23 марта в администрации города Донецка состоялось торжественное награждение Благодарностями Главы
+                    Донецкой Народной Республики, ведомственными наградами и наградами администрации г. Донецка лучших
+                    работников жилищно-коммунальных предприятий города по случаю празднования Дня работников бытового
+                    обслуживания населения и жилищно-коммунального хозяйства.
+
+                </p>
+                <p>
+                    Коллективу СПП «Донецкгортеплосеть» ГП «ДОНБАССТЕПЛОЭНЕРГО» объявлена Благодарность за
+                    добросовестный труд, высокий профессионализм и в связи с празднованием Дня работников бытового
+                    обслуживания населения и жилищно-коммунального хозяйства.
+
+                </p>
+
+            </div>
+        </div>
+
+
+    </section>
+    <section class="contacts">
+        <div class="container">
+            <div class="title">
+                <img src="./public/img/contact_pointer.svg" alt="">
+                Наши контакты
+            </div>
+
+            <div class="contacts-block d-flex flex-lg-row flex-column">
+
+                <div class="contacts-block_left">
+                    <div class="accordion accordion-flush w-100 " id="accordionContact">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headOne1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsOne1" aria-expanded="false"
+                                    aria-controls="flush-collapsOne1">
+                                    ГУП ДНР «Донбасстеплоэнерго»
+                                </button>
+                            </h2>
+                            <div id="flush-collapsOne1" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headOne1" data-bs-parent="#accordionContact">
+                                <div class="accordion-body">
+                                    <div class="accordion-body_item">
+                                        АУП филиала
+                                    </div>
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-head2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collaps2" aria-expanded="false"
+                                    aria-controls="flush-collaps2">
+                                    Филиал «Амвросиевкатеплосеть»
+                                </button>
+                            </h2>
+                            <div id="flush-collaps2" class="accordion-collapse collapse" aria-labelledby="flush-head2"
+                                data-bs-parent="#accordionContact">
+                                <div class="accordion-body">
+                                    <div class="accordion-body_item">
+                                        АУП филиала
+                                    </div>
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-head3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collaps3" aria-expanded="false"
+                                    aria-controls="flush-collaps3">
+                                    Филиал «Донецктеплосеть»
+                                </button>
+                            </h2>
+                            <div id="flush-collaps3" class="accordion-collapse collapse" aria-labelledby="flush-head3"
+                                data-bs-parent="#accordionContact">
+                                <div class="accordion-body">
+
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-head4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collaps4" aria-expanded="false"
+                                    aria-controls="flush-collaps4">
+                                    Филиал «Донецктеплосеть»
+                                </button>
+                            </h2>
+                            <div id="flush-collaps4" class="accordion-collapse collapse" aria-labelledby="flush-head4"
+                                data-bs-parent="#accordionContact">
+                                <div class="accordion-body">
+
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-head4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collaps5" aria-expanded="false"
+                                    aria-controls="flush-collaps5">
+                                    Филиал «Донецктеплосеть»
+                                </button>
+                            </h2>
+                            <div id="flush-collaps5" class="accordion-collapse collapse" aria-labelledby="flush-head5"
+                                data-bs-parent="#accordionContact">
+                                <div class="accordion-body">
+
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+                                    <div class="accordion-body_item">
+                                        Район №1 (город, пгт, село, район)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="contacts-block_right">
+                    <div class="right-item">
+                        <div class="name">Филиал Калининский р-н
+                        </div>
+                        <div class="name-adress">ул.Герцена,75</div>
+
+                        <div class="item-info">
+                            <b>Тел. приемной:</b> +38 (062) 306-12-13, +38 (062) 306-07-75
+                            <br> <b>Адрес:</b> ул.Постышева, 68
+                            <br><b>Диспетчер <i>Калининского
+                                    теплового района</i></b> :
+                            +38 (062) 297-41-73
+
+
+
+                            <!-- <span class="bold_txt">
+                                Тел. приемной: 
+                            </span>
+                            <a href="tel:+38 (062) 297-41-73">+38 (062) 306-12-13</a>,
+                            <a href="tel:+38 (062) 297-41-73">+38 (062) 306-07-75</a> -->
+
+                        </div>
+                        <!-- <div class="item-info">
+                            <span class="bold_txt">
+                                Адрес: 
+                            </span>
+                            ул.Постышева, 68
+                            
+                        </div>
+                        <div class="item-info">
+                            <span class="bold_txt">
+                                Диспетчер <span class="colored_txt">Калининского
+                                    теплового района:</span>
+                            </span>
+                            <a href="tel:+38 (062) 297-41-73">+38 (062) 297-41-73</a>,
+                          
+                            
+                        </div> -->
+                        <a href="#" class="btn_more">Подробнее</a>
+
+                        <div class="map">
+                            <div style="position:relative;overflow:hidden;"><a
+                                    href="https://yandex.ua/maps/142/donetsk/?utm_medium=mapframe&utm_source=maps"
+                                    style="color:#eee;font-size:12px;position:absolute;top:0px;">Донецк</a><a
+                                    href="https://yandex.ua/maps/142/donetsk/house/vulytsia_hertsena_75/Z04YfgFjQUMEQFpifXxwcnRmbA==/?ll=37.863863%2C48.013859&utm_medium=mapframe&utm_source=maps&z=17.15"
+                                    style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Герцена, 75 —
+                                    Яндекс.Карты</a><iframe src="https://yandex.ua/map-widget/v1/-/CCUmqTBslD"
+                                    width="100%" height="400" frameborder="1" allowfullscreen="true"
+                                    style="position:relative;"></iframe></div>
+                        </div>
+
+                    </div>
+                    <div class="right-item">
+                        <div class="name">2 Филиал Калининский р-н
+                        </div>
+                        <div class="name-adress">ул.Герцена,75</div>
+
+                        <div class="item-info">
+                            <b>Тел. приемной:</b> +38 (062) 306-12-13, +38 (062) 306-07-75
+                            <br> <b>Адрес:</b> ул.Постышева, 68
+                            <br><b>Диспетчер <i>Калининского
+                                    теплового района</i></b> :
+                            +38 (062) 297-41-73
+
+
+                        </div>
+
+                        <a href="#" class="btn_more">Подробнее</a>
+
+                        <div class="map">
+                            <div style="position:relative;overflow:hidden;"><a
+                                    href="https://yandex.ua/maps/142/donetsk/?utm_medium=mapframe&utm_source=maps"
+                                    style="color:#eee;font-size:12px;position:absolute;top:0px;">Донецк</a><a
+                                    href="https://yandex.ua/maps/142/donetsk/house/vulytsia_hertsena_75/Z04YfgFjQUMEQFpifXxwcnRmbA==/?ll=37.863863%2C48.013859&utm_medium=mapframe&utm_source=maps&z=17.15"
+                                    style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Герцена, 75 —
+                                    Яндекс.Карты</a><iframe src="https://yandex.ua/map-widget/v1/-/CCUmqTBslD"
+                                    width="100%" height="400" frameborder="1" allowfullscreen="true"
+                                    style="position:relative;"></iframe></div>
+                        </div>
+                    </div>
+                    <div class="right-item">
+                        3
+                    </div>
+                    <div class="right-item">
+                        4
+                    </div>
+                    <div class="right-item">
+                        5
+                    </div>
+                    <div class="right-item">
+                        5
+                    </div>
+                    <div class="right-item">
+                        5
+                    </div>
+                    <div class="right-item">
+                        5
+                    </div>
+                    <div class="right-item">
+                        5
+                    </div>
+                    <div class="right-item">
+                        5
+                    </div>
+                    <div class="right-item">
+                        5
+                    </div>
+                    <div class="right-item">
+                        5
+                    </div>
+                    <div class="right-item">
+                        5
+                    </div>
+                    <div class="right-item">
+                        5
+                    </div>
+                    <div class="right-item">
+                        5
+                    </div>
+                    <div class="right-item">
+                        5
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer class="d-flex flex-column position-relative">
+        <div class="white_row"></div>
+        <img class="position-absolute logo-footer" src="./public/img/logo.png" alt="logo">
+
+        <div class="menu_row d-flex flex-column flex-lg-row justify-content-between align-items-center container">
+            <div class="left-wrapper d-flex flex-column flex-lg-row justify-content-between align-items-center">
+
+                <div class="copyright">
+                    донбасстеплоэнерго © 20** - 2021
+                </div>
+                <div class="social-link">
+                    <a href="#">
+                        <img src="./public/img/vk.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="logo-block">
+
+            </div>
+
+            <div class="right-wrapper flex-column flex-lg-row d-flex justify-content-between align-items-center">
+                <div class="social-link">
+                    <a href="#">
+                        <img src="./public/img/fb.png" alt="">
+                    </a>
+                </div>
+
+                <button type="button" class="btn-politics" data-bs-toggle="modal" data-bs-target="#politics">
+                    Политика конфиденциальности
+                </button>
+
+
+
+            </div>
+
+
+            <!-- Modal politics-->
+            <div class="modal fade" id="politics" tabindex="-1" aria-labelledby="politicsLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="politicsLabel">Политика конфиденциальности</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Данная политика конфиденциальности относится к сайту с доменным именем _______________ и его поддоменам. Страница содержит сведения о том, какую информацию администрация сайта или третьи лица могут получать, когда пользователь (вы) посещаете его. Данные, которые собираются при посещении Персональные данные Персональные данные при посещении сайта передаются пользователем добровольно, к ним могут относиться: имя, фамилия, отчество, номера телефонов, адреса электронной почты, адреса для доставки товаров или оказания услуг, реквизиты компании, которую представляет пользователь, должность в компании, которую представляет пользователь, аккаунты в социальных сетях, а также — прочие, заполняемые поля форм. Эти данные собираются в целях оказания услуг или продажи товаров, возможности связи с пользователем или иной активности пользователя на сайте, а также, чтобы отправлять пользователю информацию, которую он согласился получать. Мы не проверяем достоверность оставляемых данных и не гарантируем качественного исполнения заказов, оказания услуг или обратной связи с нами при предоставлении некорректных сведений. Данные собираются имеющимися на сайте формами для заполнения (например, регистрации, оформления заказа, подписки, оставления отзыва, вопроса, обратной связи и иными). Формы, установленные на сайте, могут передавать данные как напрямую на сайт, так и на сайты сторонних организаций (скрипты сервисов сторонних организаций). Данные могут собираться через технологию cookies (куки) как непосредственно сайтом, так и скриптами сервисов сторонних организаций. Эти данные собираются автоматически, отправку этих данных можно запретить, отключив cookies (куки) в браузере, в котором открывается сайт. Не персональные данные Кроме персональных данных при посещении сайта собираются не персональные данные, их сбор происходит автоматически веб-сервером, на котором расположен сайт, средствами CMS (системы управления сайтом), скриптами сторонних организаций, установленными на сайте. К данным, собираемым автоматически, относятся: IP адрес и страна его регистрации, имя домена, с которого вы к нам пришли, переходы посетителей с одной страницы сайта на другую, информация, которую ваш браузер предоставляет добровольно при посещении сайта, cookies (куки), фиксируются посещения, иные данные, собираемые счетчиками аналитики сторонних организаций, установленными на сайте. Эти данные носят неперсонифицированный характер и направлены на улучшение обслуживания клиентов, улучшения удобства использования сайта, анализа статистики посещаемости. Предоставление данных третьим лицам Мы не раскрываем личную информацию пользователей компаниям, организациям и частным лицам, не связанным с нами. Исключение составляют случаи, перечисленные ниже. Данные пользователей в общем доступе Персональные данные пользователя могут публиковаться в общем доступе в соответствии с функционалом сайта, например, при оставлении отзывов / вопросов, может публиковаться указанное пользователем имя, такая активность на сайте является добровольной, и пользователь своими действиями дает согласие на такую публикацию. По требованию закона Информация может быть раскрыта в целях воспрепятствования мошенничеству или иным противоправным действиям; по требованию законодательства и в иных случаях, предусмотренных законами РФ. Для оказания услуг, выполнения обязательств Пользователь соглашается с тем, что персональная информация может быть передана третьим лицам в целях оказания заказанных на сайте услуг, выполнении иных обязательств перед пользователем. К таким лицам, например, относятся курьерская служба, почтовые службы, службы грузоперевозок и иные. Сервисам сторонних организаций, установленным на сайте На сайте могут быть установлены формы, собирающие персональную информацию других организаций, в этом случае сбор, хранение и защита персональной информации пользователя осуществляется сторонними организациями в соответствии с их политикой конфиденциальности. Сбор, хранение и защита полученной от сторонней организации информации осуществляется в соответствии с настоящей политикой конфиденциальности. Как мы защищаем вашу информацию Мы принимаем соответствующие меры безопасности по сбору, хранению и обработке собранных данных для защиты их от несанкционированного доступа, изменения, раскрытия или уничтожения, ограничиваем нашим сотрудникам, подрядчикам и агентам доступ к персональным данным, постоянно совершенствуем способы сбора, хранения и обработки данных, включая физические меры безопасности, для противодействия несанкционированному доступу к нашим системам. Ваше согласие с этими условиями Используя сайт, вы выражаете свое согласие с этой политикой конфиденциальности. Если вы не согласны с этой политикой, пожалуйста, не используйте его. Ваше дальнейшее использование сайта после внесения изменений в настоящую политику будет рассматриваться как ваше согласие с этими изменениями. Отказ от ответственности Политика конфиденциальности не распространяется ни на какие другие сайты и не применима к веб-сайтам третьих лиц, которые могут содержать упоминание о нашем сайте и с которых могут делаться ссылки на сайт, а также ссылки с этого сайта на другие сайты сети интернет. Мы не несем ответственности за действия других веб-сайтов. Изменения в политике конфиденциальности Мы имеем право по своему усмотрению обновлять данную политику конфиденциальности в любое время. Используя сайт, вы соглашаетесь с принятием на себя ответственности за периодическое ознакомление с политикой конфиденциальности и изменениями в ней.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- / Modal politics-->
+
+        </div>
+    </footer>
 
 </body>
 

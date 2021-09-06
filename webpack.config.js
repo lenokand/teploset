@@ -23,7 +23,7 @@ module.exports = {
         new CopyWebpackPlugin({
             patterns: [
                 {
-                    from: './src/public'
+                    from: './src/public', to: "./public"
                 }
             ]
         }),
@@ -32,11 +32,11 @@ module.exports = {
             template: './src/html/index.html',
             inject: 'body'
         }),
-        // new HtmlWebpackPlugin({
-        //     filename: 'cart.html',
-        //     template: './src/html/cart.html',
-        //     inject: 'body'
-        // })
+        new HtmlWebpackPlugin({
+            filename: 'news.html',
+            template: './src/html/news.html',
+            inject: 'body'
+        })
     ],
     module: {
         rules: [
