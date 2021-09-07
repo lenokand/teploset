@@ -37,6 +37,12 @@ module.exports = {
             template: './src/html/news.html',
             inject: 'body'
         })
+        ,
+        new HtmlWebpackPlugin({
+            filename: 'content.html',
+            template: './src/html/content.html',
+            inject: 'body'
+        })
     ],
     module: {
         rules: [

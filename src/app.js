@@ -1,4 +1,5 @@
 import 'bootstrap'
+import { Fancybox } from "@fancyapps/ui";
 
 let btnMore = document.querySelector('.seo-text .btn-more')
 if (btnMore) {
