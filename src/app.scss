@@ -174,7 +174,7 @@ menu nav {
             outline: none;
             border-radius: 4px;
             border: 1px solid #272727;
-            transition: ease 1000ms;
+            transition: width ease 600ms;
 
             &:focus {
                 border: 2px solid #0a3697;
@@ -184,11 +184,12 @@ menu nav {
                 // left: 0px;
                 top: -10px;
                 right: 0px;
-                max-width: none;
-                transition: ease 1000ms;
+                // max-width: none;
+                // transition: ease 1000ms;
                 // transform: translateX(50px);
                 width: 35vw;
-                transition: 800ms ease;
+                // transition: 800ms ease;
+                max-width: 545px;
 
             }
         }
@@ -222,8 +223,8 @@ menu nav {
     }
 
     ul {
-        padding-top: 29px;
-        padding-bottom: 32px;
+        padding-top: 20px;
+        padding-bottom: 20px;
 
         .dropdown-item {
             padding-left: 36px;
@@ -231,6 +232,9 @@ menu nav {
             padding-top: 9px;
             padding-bottom: 9px;
             margin-bottom: 10px;
+            &:last-child{
+                margin-bottom: 0;
+            }
         }
     }
 }
@@ -414,6 +418,10 @@ menu {}
         background: #DF4F57;
         border-radius: 4px;
         width: 178px;
+        transition: ease 300ms;
+        &:hover{
+            opacity: 0.9;
+        }
     }
 
     .slide-card {
@@ -894,6 +902,10 @@ menu {}
 
         color: #FFFFFF;
         cursor: pointer;
+        transition: 300ms ease;
+        &:hover{
+            opacity: 0.9;
+        }
 
     }
 
@@ -908,7 +920,7 @@ menu {}
     }
 
     .contacts-block_left {
-        flex-basis: calc(50% + 4px);
+        flex-basis: calc(54% );
         margin-right: 30px;
         max-height: 666px;
         overflow-y: scroll;
@@ -975,6 +987,7 @@ menu {}
         border: 1px solid #B7C6E5;
         box-shadow: 0px 21px 24px -12px rgba(10, 54, 151, 0.05);
         border-radius: 6px;
+      
     }
 
     .accordion-flush .accordion-button {
@@ -1211,7 +1224,7 @@ content {
             color: #FFFFFF;
             margin-right: 9px;
             margin-bottom: 20px;
-
+            cursor: pointer;
             &:last-child {
                 margin-right: 0;
             }
@@ -1223,8 +1236,11 @@ content {
                 text-align: center;
                 color: #FFFFFF;
             }
-
+            transition: ease 300ms;
             &.active {
+                background: #B7C6E5;
+            }
+            &:hover{
                 background: #B7C6E5;
             }
         }
@@ -1248,7 +1264,7 @@ content {
         transition: 300ms ease;
 
         &:hover {
-            box-shadow: 0px 15px 24px 1px rgba(40, 48, 63, 0.1);
+            box-shadow: 0px 24px 42px -12px rgba(10, 54, 151, 0.1);
         }
 
         img {
@@ -1378,6 +1394,7 @@ content {
         border: none;
         border-radius: 120%;
         margin-right: 10px;
+        text-align: center;
 
         &:last-child {
             margin-right: 0;
@@ -1410,6 +1427,7 @@ content {
 
 
     .content-text {
+        min-height: 37vh;
         ol {
             padding-left: 20px;
         }
@@ -1620,65 +1638,83 @@ content {
         color: #FFFFFF;
         background-color: #1375CE;
         border-radius: 4px;
+        transition: ease 300ms;
+        &:hover{
+            opacity: 0.9;
+        }
     }
 }
 
 
 .table-section {
 margin-bottom: 123px;
-    thead {
+   
+}
+table{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+}
+thead {
 
-        // background: #1375CE;
-        th {
-            background: #1375CE;
-            font-weight: bold;
-            font-size: 16px;
-            line-height: 120.2%;
-            color: #FFFFFF;
-            padding: 30px 10px;
+    // background: #1375CE;
+    th {
+        background: #1375CE;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 120.2%;
+        color: #FFFFFF;
+        padding: 30px 10px;
 
-            &:first-child {
-                border-radius: 6px 0 0px 0px;
-                padding-left: 30px;
-            }
+        &:first-child {
+            border-radius: 6px 0 0px 0px;
+            padding-left: 30px;
+        }
 
-            &:last-child {
-                border-radius: 0 6px 0px 0px;
-                padding-right: 30px;
-            }
+        &:last-child {
+            border-radius: 0 6px 0px 0px;
+            padding-right: 30px;
         }
     }
+}
 
-    tbody {
-        tr {
-            border: none;
-            font-size: 16px;
-            line-height: 154.2%;
-            color: #272727;
-            background: #FFFFFF;
+tbody {
+    tr {
+        border: none;
+        font-size: 16px;
+        line-height: 154.2%;
+        color: #272727;
+        background: #FFFFFF;
+
+        &:hover{
             td{
-                padding-top: 20px;
-                &:first-child{
-                    padding-left: 30px;
-                }
-            }
-
-            &:last-child{
-                td{
-                    padding-bottom: 25px;
-
-                    &:first-child{
-                        border-radius: 0  0px 0px 6px;
-                    }
-                    &:last-child{
-                        border-radius: 0  0px 6px 0;
-                    }
-                }
+                background: #fffafa;
             }
         }
         td{
-            border: none;
+            padding-top: 20px;
+            transition: 300ms ease;
+            &:first-child{
+                padding-left: 30px;
+            }
         }
+
+        &:last-child{
+            td{
+                padding-bottom: 25px;
+
+                &:first-child{
+                    border-radius: 0  0px 0px 6px;
+                }
+                &:last-child{
+                    border-radius: 0  0px 6px 0;
+                }
+            }
+        }
+    }
+    td{
+        border: none;
     }
 }
 
@@ -1687,9 +1723,10 @@ margin-bottom: 123px;
         .container{
             overflow-x: auto;
         }
-        .table{
-            width: 1150px;
-        }
+        
+    }
+    table{
+        width: 1150px;
     }
     
 }
@@ -1705,5 +1742,14 @@ margin-bottom: 123px;
     .table-section{
         margin-bottom: 60px;
     }
+    .content .content-text img{
+        width: 100%;
+        padding-right: 0;
+        float: none;
+        max-width: none;
+    }
+}
+@media screen and(max-width:767px) {
+    
     
 }
